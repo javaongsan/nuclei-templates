@@ -1,0 +1,19 @@
+id: apache-Struts-S2-016-rce.yaml
+
+info:
+  name: Remote Command Execution ( Apache Struts S2-016) 
+  author: j4v40n654n
+  severity: high
+  reference: |
+    - https://twitter.com/Alra3ees/status/1416185619336814596
+  tags: apache, rce
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/sm/login/loginpagecontentgrabber.do"
+
+    matchers:
+      - type: status
+        status:
+          - 200
