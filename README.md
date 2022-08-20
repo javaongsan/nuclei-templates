@@ -6,3 +6,4 @@
 1. Oracle-OAM-XSS.yaml from https://github.com/dk4trin/templates-nuclei/raw/main/Oracle-OAM-XSS.yaml
 1. ScanReflectedXSS.yaml from https://github.com/HernanRodriguez1/ScanReflectedXSS/raw/main/ScanReflectedXSS.yaml
 1. ScanMySQLiErrorBased.yaml from https://github.com/HernanRodriguez1/ScanMySQLiErrorBased-Nuclei/blob/main/ScanMySQLiErrorBased.yaml
+1. JS secret credentials-disclosure-all.yaml https://github.com/w9w/JSA/blob/main/templates/credentials-disclosure-all.yaml
